@@ -11,7 +11,8 @@ RUN apt update \
                            python3-requests \
                            ffmpeg \
                            libmagic-dev \
-                           libwebp-dev 
+                           libwebp-dev \
+                           git
 
 RUN pip3 install ehforwarderbot \
              efb-telegram-master \
