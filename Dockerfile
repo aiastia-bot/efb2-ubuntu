@@ -16,6 +16,6 @@ RUN apt update \
 
 RUN pip3 install ehforwarderbot \
              efb-telegram-master \
-             efb-wechat-slave
+             efb-wechat-slave \
 
 CMD ["ehforwarderbot"]
