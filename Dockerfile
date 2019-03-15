@@ -17,5 +17,7 @@ RUN apt update \
 RUN pip3 install ehforwarderbot \
              efb-telegram-master \
              efb-wechat-slave \
+    && pip3 install python-telegram-bot==10.0.0 \
+    && pip3 install --upgrade git+https://github.com/littlecodersh/ItChat.git
 
 CMD ["ehforwarderbot"]
